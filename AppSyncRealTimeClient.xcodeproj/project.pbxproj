@@ -62,7 +62,7 @@
 		21D38B97240C4DCF00EC2A8D /* Error+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 21D38B96240C4DCF00EC2A8D /* Error+Extension.swift */; };
 		21D38B99240C4E1C00EC2A8D /* ConfigurationHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 21D38B98240C4E1C00EC2A8D /* ConfigurationHelper.swift */; };
 		21D38B9D240C540D00EC2A8D /* TestCommonConstants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 21D38B9C240C540D00EC2A8D /* TestCommonConstants.swift */; };
-		23B9936A264AFFB0001C7215 /* Starscream in Frameworks */ = {isa = PBXBuildFile; productRef = 23B99369264AFFB0001C7215 /* Starscream */; };
+		23B99370264B2C35001C7215 /* Starscream in Frameworks */ = {isa = PBXBuildFile; productRef = 23B9936F264B2C35001C7215 /* Starscream */; };
 		FA67507824D3244A005A1345 /* MockWebsocketProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA67507724D3244A005A1345 /* MockWebsocketProvider.swift */; };
 		FA67507B24D338CB005A1345 /* Error+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA67507A24D338C6005A1345 /* Error+Extension.swift */; };
 		FA67507E24D33976005A1345 /* RealtimeConnectionProviderTestBase.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA67507C24D338FA005A1345 /* RealtimeConnectionProviderTestBase.swift */; };
@@ -199,7 +199,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				23B9936A264AFFB0001C7215 /* Starscream in Frameworks */,
+				23B99370264B2C35001C7215 /* Starscream in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -534,7 +534,7 @@
 			);
 			name = AppSyncRealTimeClient;
 			packageProductDependencies = (
-				23B99369264AFFB0001C7215 /* Starscream */,
+				23B9936F264B2C35001C7215 /* Starscream */,
 			);
 			productName = AppSyncRealTimeClient;
 			productReference = 217F398F2405D9D500F1A0B3 /* AppSyncRealTimeClient.framework */;
@@ -656,7 +656,7 @@
 			);
 			mainGroup = 217F39852405D9D500F1A0B3;
 			packageReferences = (
-				23B99368264AFFB0001C7215 /* XCRemoteSwiftPackageReference "starscream-ios-spm" */,
+				23B9936E264B2C35001C7215 /* XCRemoteSwiftPackageReference "starscream-ios-spm" */,
 			);
 			productRefGroup = 217F39902405D9D500F1A0B3 /* Products */;
 			projectDirPath = "";
@@ -1397,9 +1397,9 @@
 /* End XCConfigurationList section */
 
 /* Begin XCRemoteSwiftPackageReference section */
-		23B99368264AFFB0001C7215 /* XCRemoteSwiftPackageReference "starscream-ios-spm" */ = {
+		23B9936E264B2C35001C7215 /* XCRemoteSwiftPackageReference "starscream-ios-spm" */ = {
 			isa = XCRemoteSwiftPackageReference;
-			repositoryURL = "https://github.com/BlueOwlDev/starscream-ios-spm";
+			repositoryURL = "git@github.com:BlueOwlDev/starscream-ios-spm.git";
 			requirement = {
 				kind = upToNextMajorVersion;
 				minimumVersion = 3.1.1;
@@ -1408,9 +1408,9 @@
 /* End XCRemoteSwiftPackageReference section */
 
 /* Begin XCSwiftPackageProductDependency section */
-		23B99369264AFFB0001C7215 /* Starscream */ = {
+		23B9936F264B2C35001C7215 /* Starscream */ = {
 			isa = XCSwiftPackageProductDependency;
-			package = 23B99368264AFFB0001C7215 /* XCRemoteSwiftPackageReference "starscream-ios-spm" */;
+			package = 23B9936E264B2C35001C7215 /* XCRemoteSwiftPackageReference "starscream-ios-spm" */;
 			productName = Starscream;
 		};
 /* End XCSwiftPackageProductDependency section */
