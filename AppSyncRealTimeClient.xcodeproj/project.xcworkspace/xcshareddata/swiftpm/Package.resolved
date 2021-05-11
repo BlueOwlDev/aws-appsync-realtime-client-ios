@@ -1,0 +1,16 @@
+{
+  "object": {
+    "pins": [
+      {
+        "package": "Starscream",
+        "repositoryURL": "https://github.com/BlueOwlDev/starscream-ios-spm",
+        "state": {
+          "branch": null,
+          "revision": "2aca5a1b2f9ae9bc9b2275f2a4843a2302155462",
+          "version": "3.1.1"
+        }
+      }
+    ]
+  },
+  "version": 1
+}
